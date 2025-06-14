@@ -9,7 +9,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        SwitchWithDrawLayout switchView = new SwitchWithDrawLayout(this);
+        ChandelierRoot switchView = new ChandelierRoot(this);
         setContentView(switchView);
 
     }
